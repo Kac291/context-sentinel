@@ -28,14 +28,14 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that moni
 
 Silent below 60%. One line when it matters.
 
-**🟡 Chinese — safe prediction**
+**🟡 Yellow — safe prediction**
 ```
-[CONTEXT-SENTINEL] 🟡 上下文已用 62%（124,000 / 200,000 tokens）[claude-sonnet-4-6]。
-可继续使用，注意预算。剩余约 38 轮对话。
-会话运行 1h23m，距5h重置还剩 3h37m。按当前速率，重置前不会触发封顶暂停。
+[CONTEXT-SENTINEL] 🟡 context 62% used (124,000 / 200,000 tokens) [claude-sonnet-4-6].
+continue — stay aware. ~38 turns remaining.
+Session 1h23m old, reset in 3h37m. At current burn rate, context will not exhaust before reset.
 ```
 
-**🟠 English — danger prediction**
+**🟠 Orange — danger prediction**
 ```
 [CONTEXT-SENTINEL] 🟠 context 78% used (156,000 / 200,000 tokens) [claude-sonnet-4-6].
 plan /compact after current task. ~22 turns remaining.
@@ -44,8 +44,8 @@ Session 2h10m old, reset in 2h50m. ⚠️ Context exhausts in ~45m at current ra
 
 **🔴 Red zone**
 ```
-[CONTEXT-SENTINEL] 🔴 上下文已用 93%（186,000 / 200,000 tokens）[claude-sonnet-4-6]。
-处于低智能区！建议立即 /compact。剩余约 7 轮对话。
+[CONTEXT-SENTINEL] 🔴 context 93% used (186,000 / 200,000 tokens) [claude-sonnet-4-6].
+compact now — model quality degrading. ~7 turns remaining.
 ```
 
 ---
