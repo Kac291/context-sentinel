@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/github/license/Kac291/context-sentinel?style=flat)](LICENSE)
 [![Stars](https://img.shields.io/github/stars/Kac291/context-sentinel?style=flat)](https://github.com/Kac291/context-sentinel/stargazers)
 
+[中文文档](README_CN.md)
+
 A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin that monitors your context window on every message and every tool call. Reads exact token counts from the session transcript — no heuristics, no polling. Output language follows your input (Chinese ↔ English auto-detected).
 
 ---
